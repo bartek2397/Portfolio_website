@@ -4,13 +4,24 @@ import NavItem from './NavItem'
 
 const Navbar = () => {
     return (
-        <div className='flex flex-col'>
-            <ul className='relative top-10 right-[5%] flex justify-start m-10 p-5 '>
+        <div className='flex flex-col p-10'>
+        
             
-                    <NavItem />
+                    <div className='relative'>
+                        <NavItem />
+                    </div>
+                    <div className='relative top-[30%] right-[10%]'>
+                        <NavItem />
+                    </div>
+                    <div className='relative top-[50%] right-[20%]'>
+                        <NavItem />
+                    </div>
+                    <div className='relative top-[70%] right-[30%]'>
+                        <NavItem />
+                    </div>
                 
                 
-                    <Button className='absolute right-[62%] top-[70%]'>Lorem ipsum2</Button>
+                    {/* <Button className='absolute right-[62%] top-[70%]'>Lorem ipsum2</Button>
                     <span className='block w-[400px] bg-gray-600 h-[2px] rounded-[20%] absolute right-[62%] bottom-[-30%] mr-2'></span>
                 
                 
@@ -19,9 +30,9 @@ const Navbar = () => {
                 
                 
                     <Button className='absolute right-[86%] top-[210%]'>Lorem ipsum4</Button>
-                    <span className='block w-[400px] bg-gray-600 h-[2px] rounded-[20%] absolute right-[50%] top-[50%]'></span>
+                    <span className='block w-[400px] bg-gray-600 h-[2px] rounded-[20%] absolute right-[50%] top-[50%]'></span> */}
                 
-            </ul>
+            
         </div>
     )
 }
