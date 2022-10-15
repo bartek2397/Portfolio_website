@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from '@mui/material'
 import NavItem from './NavItem'
 
 const Navbar = () => {
@@ -7,17 +6,17 @@ const Navbar = () => {
         <div className='flex flex-col p-10'>
         
             
-                    <div className='relative'>
-                        <NavItem />
+                    <div className='relative font-orbitron'>
+                        <NavItem name='Home'></NavItem>
                     </div>
-                    <div className='relative top-[30%] right-[10%]'>
-                        <NavItem />
+                    <div className='relative right-[10%%] top-[30%]'>
+                        <NavItem name='About me'></NavItem>
                     </div>
                     <div className='relative top-[50%] right-[20%]'>
-                        <NavItem />
+                        <NavItem name='My Work'></NavItem>
                     </div>
                     <div className='relative top-[70%] right-[30%]'>
-                        <NavItem />
+                        <NavItem name='Contact'></NavItem>
                     </div>
                 
                 
