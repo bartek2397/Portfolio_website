@@ -5,10 +5,16 @@
 
 @layer base {
     * {
-        @apply box-border
+        @apply box-border font-orbitron
+    }
+    h1 {
+        @apply text-6xl text-white
+    }
+    h2 {
+        @apply text-3xl text-white
     }
 }
 @font-face {
-    font-family: "Orbitron", sans-serif;
+    font-family: "Orbitron";
     src: url('/src/assets/fonts/Orbitron-Black.ttf');
 }
