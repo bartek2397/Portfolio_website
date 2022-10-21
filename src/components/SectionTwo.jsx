@@ -3,7 +3,7 @@ import AboutMe from './AboutMe'
 
 const SectionTwo = () => {
   return (
-    <section className='w-full h-[100vh] bg-gradient-to-b from-[#010a1e] to-[#272d34]'>
+    <section className='w-full h-[100vh] bg-gradient-to-b from-[#010a1e] to-[#07041e]'>
         <AboutMe />
     </section>
   )

@@ -1,9 +1,7 @@
 import React from 'react'
-import Navbar from './components/Navbar'
-import Intro from './components/Intro'
-import AboutMe from './components/AboutMe'
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
+import SectionThree from './components/SectionThree'
 
 
 const App = () => {
@@ -11,6 +9,7 @@ const App = () => {
         <>
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
         </>
     )
 }

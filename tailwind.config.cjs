@@ -16,7 +16,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'nasa-image': "url('./src/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg')"
+        'nasa-image': "url('./src/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg')",
+        'stars-image': "url('./src/assets/images/nrd-6KuY0cXHymE-unsplash.jpg')",
       },
       fontFamily: {
         'orbitron': ['Orbitron', 'sans-serif'],

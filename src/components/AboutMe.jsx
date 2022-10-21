@@ -2,7 +2,6 @@ import React from 'react'
 import Slider from 'react-slick'; 
 import 'slick-carousel/slick/slick.css'
 import "slick-carousel/slick/slick-theme.css";
-import SliderArrow from './SliderArrow';
 
 const AboutMe = () => {
 
@@ -31,8 +30,6 @@ const AboutMe = () => {
     slidesToScroll: 1,
     swipeToSlide: true,
     edgeFriction: 0.15,
-    nextArrow: <SliderArrow to='next' />,
-    prevArrow: <SliderArrow to='prev' />
  };
 
   return (
