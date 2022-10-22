@@ -1,19 +1,19 @@
 let images = [
     {
         id: 1,
-        // src: 'src/assets/images/Todo.PNG',
-        alt: 'Todo App'
+        image: 'src/assets/images/markus-winkler-5ofa31FPKYY-unsplash.jpg',
+        title: 'Todo App'
     },
     {
         id: 2,
-        // src: 'src/assets/images/Notes.PNG',
-        alt: 'Notes App'
+        image: 'src/assets/images/kelly-sikkema--1_RZL8BGBM-unsplash.jpg',
+        title: 'Notes App'
     },
     {
         id: 3,
-        // src: 'src/assets/images/Weather.PNG',
-        alt: 'Waether App'
+        image: 'src/assets/images/noaa-Led9c1SSNFo-unsplash.jpg',
+        title: 'Weather App'
     },
-]
+];
 
 export default images;

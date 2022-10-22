@@ -7,12 +7,8 @@ const MyWork = () => {
         <div className='w-[100%] pt-[15%]'>
             <h1>My Work</h1>
         </div> 
-        <div className='flex w-full justify-between items-stretch'>
             
             <ProjectCard title='Todo App' desc='Web Development' />
-            <ProjectCard title='Todo App' desc='Web Development' />
-            <ProjectCard title='Todo App' desc='Web Development' />
-        </div>
     </div>
   )
 }
