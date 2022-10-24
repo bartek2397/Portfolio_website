@@ -11,7 +11,7 @@
         @apply text-6xl text-white m-0
     }
     h2 {
-        @apply text-3xl text-white
+        @apply text-3xl text-white m-0
     }
 }
 @font-face {

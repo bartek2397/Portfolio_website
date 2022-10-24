@@ -1,8 +1,8 @@
 import React from 'react'
-import SectionOne from './components/SectionOne'
-import SectionTwo from './components/SectionTwo'
-import SectionThree from './components/SectionThree'
-
+import SectionOne from './sections/SectionOne'
+import SectionTwo from './sections/SectionTwo'
+import SectionThree from './sections/SectionThree'
+import Footer from './components/Footer'
 
 const App = () => {
     return(
@@ -10,6 +10,7 @@ const App = () => {
         <SectionOne />
         <SectionTwo />
         <SectionThree />
+        <Footer />
         </>
     )
 }

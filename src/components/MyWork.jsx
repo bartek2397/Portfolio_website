@@ -8,7 +8,7 @@ const MyWork = () => {
             <h1>My Work</h1>
         </div> 
             
-            <ProjectCard title='Todo App' desc='Web Development' />
+            <ProjectCard />
     </div>
   )
 }
