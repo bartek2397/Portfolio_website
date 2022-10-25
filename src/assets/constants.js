@@ -1,4 +1,4 @@
-let images = [
+export const images = [
     {
         id: 1,
         image: 'src/assets/images/markus-winkler-5ofa31FPKYY-unsplash.jpg',
@@ -19,4 +19,15 @@ let images = [
     },
 ];
 
-export default images;
+export const links = [
+    {
+        id: '1',
+        name: 'GitHub',
+        link: 'https://github.com/bartek2397',
+    },
+    {
+        id: '2',
+        name: 'LinkedIn',
+        link: 'https://www.linkedin.com/in/bartek-wszo%C5%82ek-b7620b1b5/',
+    }
+];

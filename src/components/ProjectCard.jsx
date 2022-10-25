@@ -1,7 +1,6 @@
 import React from 'react';
 import { Card, CardMedia, CardContent, Typography } from '@mui/material';
-import images from '../assets/images';
-
+import { images } from '../assets/constants';
 
 
 const ProjectCard = () => {
