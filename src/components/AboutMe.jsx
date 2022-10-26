@@ -1,5 +1,5 @@
 import React from 'react'
-import phrases from '../assets/constants';
+import { phrases } from '../assets/constants';
 
 const AboutMe = () => {
 

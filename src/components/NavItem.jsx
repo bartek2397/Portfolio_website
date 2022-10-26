@@ -2,11 +2,11 @@ import React from 'react'
 import { Button } from "@mui/material"
 
 
-const NavItem = ({ name }) => {
+const NavItem = ({ name, className }) => {
   return (
-    <div className='flex flex-col mt-10 p-2 relative w-[50vw]'>
-        <Button className='absolute text-slate-300 right-0 font-orbitron'>{name}</Button>
-        <span className='block w-[400px] bg-gray-600 h-[2px] rounded-[40%] absolute translate-y-10 right-0 mr-2'></span>
+    <div className='flex p-5'>
+        <Button className=' text-slate-300 font-orbitron mr-10'>{name}</Button>
+        <span className={`mt-5 w-[100px] bg-gray-400 h-[2px] rotate-90 rounded-[40%] ${className}`}></span>
     </div>
   )
 }

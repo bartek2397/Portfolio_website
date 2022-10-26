@@ -3,18 +3,18 @@ import NavItem from './NavItem'
 
 const Navbar = () => {
     return (
-        <div className='flex flex-col p-5'>
-            <div className='relative'>
+        <div className='flex justify-center p-5'>
+            <div className=''>
                 <NavItem name='Home'></NavItem>
             </div>
-            <div className='relative top-[30%] right-[10%]'>
+            <div className=''>
                 <NavItem name='About me'></NavItem>
             </div>
-            <div className='relative top-[50%] right-[20%]'>
+            <div className=''>
                 <NavItem name='My Work'></NavItem>
             </div>
-            <div className='relative top-[70%] right-[30%]'>
-                <NavItem name='Contact'></NavItem>
+            <div className=''>
+                <NavItem name='Contact' className={`hidden`}></NavItem>
             </div>
             
         </div>

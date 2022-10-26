@@ -4,7 +4,7 @@ import Intro from '../components/Intro'
 
 const SectionOne = () => {
   return (
-    <section className='bg-center bg-cover h-[100vh] '>
+    <section className='h-[100vh] '>
         <Navbar />
         <Intro />
     </section>
