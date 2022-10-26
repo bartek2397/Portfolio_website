@@ -60,4 +60,22 @@ export const contacts = [
                 <FontAwesomeIcon icon={faPhone} />
             </>
     }
-]
+];
+
+export const phrases = [
+    { 
+      id: 1,
+      content: "I'm a beginner Frontend Developer. I have been developing my Frontend skills fot over a year now. Main technology I work with lately is ReactJS iwth Material UI/AntDesign"
+    },
+    
+    { 
+      id: 2,
+      content: 'I graduated Geography with tourism specialty at Jagiellonian Univeristy in Cracow in 2021. Recently I decided to change my career direction to Web Development.'
+    },
+    
+    { 
+      id: 3,
+      content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur atque recusandae ducimus dignissimos, voluptates doloribus minus hic. Magnam officia beatae a. Quod eaque, similique itaque quo inventore cupiditate quaerat incidunt!'
+    }
+    
+  ];

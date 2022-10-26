@@ -6,12 +6,12 @@ import Footer from './components/Footer'
 
 const App = () => {
     return(
-        <>
-        <SectionOne />
-        <SectionTwo />
-        <SectionThree />
-        <Footer />
-        </>
+        <div className='bg-space-image bg-cover bg-center'>
+            <SectionOne />
+            <SectionTwo />
+            <SectionThree />
+            <Footer />
+        </div>
     )
 }
 export default App;

@@ -6,7 +6,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
-    <section className='w-full h-[30vh] bg-gray-800'>
+    <section className='w-full h-[30vh] snap-start'>
         <div className='w-[1170px] h-[100%] mt-0 mb-0 mr-auto ml-auto pr-[15px] pl-[15px] text-left flex flex-col justify-between'>
           <footer className='flex justify-between h-[100%]'>
             <div className='w-[30%] self-center'>
