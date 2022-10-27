@@ -4,6 +4,7 @@ import SectionTwo from './sections/SectionTwo'
 import SectionThree from './sections/SectionThree'
 import Footer from './components/Footer'
 
+
 const App = () => {
     return(
         <div className='bg-space-image bg-cover bg-center'>
