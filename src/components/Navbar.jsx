@@ -1,15 +1,13 @@
 import React, { useState } from 'react'
-import NavItem from './NavItem'
-import { Spin as Hamburger } from 'hamburger-react'
+import NavItem from './NavItem';
 
-const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false)
+const Navbar = ({ isOpen }) => {
 
     
 
     return (
-        <Hamburger toggled={isOpen} toggle={setIsOpen} className='text-left hidden' color='#ffffff'>
-            <div className='max-w-[1170px] m-auto flex p-5 justify-center'>
+        
+            <div className={`max-w-[1170px] m-auto flex p-5 justify-center md:${isOpen ? 'fixed m-0 flex flex-col w-full h-screen bg-gray-600' : 'hidden'}`}>
                 <div className=''>
                     <NavItem name='Home'></NavItem>
                 </div>
@@ -23,7 +21,6 @@ const Navbar = () => {
                     <NavItem name='Contact' classname={`hidden`}></NavItem>
                 </div>
             </div>
-        </Hamburger>
     )
 }
 export default Navbar;

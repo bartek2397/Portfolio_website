@@ -5,11 +5,9 @@
 
 @layer base {
     * {
-        @apply box-border font-orbitron snap-y snap-mandatory
+        @apply box-border font-orbitron
     }
-    section {
-        @apply snap-start
-    }
+    
     h1 {
         @apply text-6xl text-white m-0
     }
