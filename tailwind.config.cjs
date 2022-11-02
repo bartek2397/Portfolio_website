@@ -29,7 +29,7 @@ module.exports = {
       backgroundImage: {
         'nasa-image': "url('./src/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg')",
         'stars-image': "url('./src/assets/images/nrd-6KuY0cXHymE-unsplash.jpg')",
-        'space-image': "url('./src/assets/images/evgeni-evgeniev-LPKk3wtkC-g-unsplash.jpg')"
+        'forest-image': "url('./src/assets/images/evgeni-evgeniev-LPKk3wtkC-g-unsplash.jpg')"
       },
       fontFamily: {
         'orbitron': ['Orbitron', 'sans-serif'],

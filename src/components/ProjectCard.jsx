@@ -7,11 +7,11 @@ const ProjectCard = () => {
     
 
   return (
-    <div className='flex justify-between'>
+    <div className='flex justify-between md:flex-col md:items-center'>
         {images.map((item, id) => (
-            <div className='flex justify-between w-[30%] h-[150%]'>
-                <Card className='w-[100%] text-white bg-gray-600 h-[60%] text-left mt-10 font-orbitron'>
-                    <CardMedia key={id} className='cursor-pointer transition duration-500 hover:scale-75'>
+            <div className='flex justify-between w-[30%] h-[150%] md:w-[80%]'>
+                <Card className=' text-white bg-gray-600 h-[60%] md:h-[80%] text-left mt-10 font-orbitron '>
+                    <CardMedia key={id} className='cursor-pointer transition duration-500 hover:scale-75 '>
                             <img src={item.image} alt={item.title} className='w-[100%] rounded-lg' />
                     </CardMedia>
                     <CardContent className=''>
