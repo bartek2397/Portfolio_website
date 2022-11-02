@@ -7,7 +7,7 @@ const Navbar = ({ isOpen }) => {
 
     return (
         
-            <div className={`max-w-[1170px] m-auto flex p-5 justify-center md:${isOpen ? 'fixed m-0 flex flex-col w-full h-screen bg-gray-600' : 'hidden'}`}>
+            <div className={`max-w-[1170px] m-auto flex p-5 justify-center ${isOpen ? ' m-0 flex flex-col w-full h-screen bg-gray-600' : 'lg:hidden'}`}>
                 <div className=''>
                     <NavItem name='Home'></NavItem>
                 </div>

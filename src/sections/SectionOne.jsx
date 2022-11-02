@@ -12,7 +12,7 @@ const SectionOne = () => {
 
   return (
     <section className='h-[100vh]'>
-      <div className={`hidden bg-transparent m-auto text-white md:block ${isOpen ? 'absolute' : ''}`}>
+      <div className={`hidden bg-transparent m-auto text-white lg:block ${isOpen ? 'absolute z-5' : ''}`}>
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
           <Navbar isOpen={isOpen}/>

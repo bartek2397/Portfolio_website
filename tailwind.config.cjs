@@ -17,6 +17,14 @@ module.exports = {
       'xl': {'max': '1280px'},
       '2xl': {'max': '1536px'},
     },
+    fluidTypography: {
+        remSize: 16,
+        minScreenSize: 320,
+        maxScreenSize: 1920,
+        minTypeScale: 1.2,
+        maxTypeScale: 1.333,
+        lineHeight: 1.35
+    },
     extend: {
       backgroundImage: {
         'nasa-image': "url('./src/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg')",
@@ -33,5 +41,5 @@ module.exports = {
     // Remove Tailwind CSS's preflight style so it can use the MUI's preflight instead (CssBaseline).
     preflight: false,
   },
-  plugins: [],
+  plugins: [require("tailwind-fluid-typography")],
 };

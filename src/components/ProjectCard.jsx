@@ -9,7 +9,7 @@ const ProjectCard = () => {
   return (
     <div className='flex justify-between'>
         {images.map((item, id) => (
-            <div className='flex flex-wrap justify-between w-[30%] h-[150%] realtive -z-1'>
+            <div className='flex justify-between w-[30%] h-[150%]'>
                 <Card className='w-[100%] text-white bg-gray-600 h-[60%] text-left mt-10 font-orbitron'>
                     <CardMedia key={id} className='cursor-pointer transition duration-500 hover:scale-75'>
                             <img src={item.image} alt={item.title} className='w-[100%] rounded-lg' />
