@@ -11,14 +11,14 @@ const Footer = () => {
             <div className='flex justify-evenly w-[70%] xl:w-full xl:justify-center md:flex-col md:items-center '>
               <div className='flex flex-col w-[30%] justify-center xl:w-[50%] xl:items-center md:w-full'>
               {links.map((item) => (
-                <a key={item.id} href={item.link} target='_blank' className='text-white no-underline m-5 text-lg md:fluid-sm'>
+                <a key={item.id} href={item.link} target='_blank' className='text-white text-center no-underline m-5 text-lg md:fluid-sm md:m-1 md:w-[100vw]'>
                   {item.icon} {item.name}
                 </a>
               ))}
               </div>
               <div className='w-[30%] flex flex-col justify-center xl:w-[50%] md:items-center md:w-[100%]'>
                 {contacts.map((contact) => (
-                  <p className='text-white text-lg ml-5 text-center md:ml-0 md:fluid-sm '>
+                  <p className='text-white text-lg ml-5 text-center md:ml-0 md:fluid-sm md:m-1 md:w-[100vw]'>
                     {contact.icon} {contact.content}
                   </p>
                 ))}
