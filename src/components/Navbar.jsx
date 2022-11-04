@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import React from 'react'
 import NavItem from './NavItem';
 import useScrollPosition from '../useScrollPosition';
 
@@ -8,19 +8,11 @@ const Navbar = ({ isOpen }) => {
 
     return (
         
-            <div  className={`min-w-[1170px] m-auto flex p-5 justify-center ${isOpen ? 'fixed z-[8] lg:flex lg:flex-col lg:w-full lg:h-screen lg:bg-gray-600' : 'lg:hidden'} ${scrollPosition > 50 ? 'transition duration-300 bg-gray-300 fixed z-[2] text-black h-[100px] rounded-md w-[100vw]' : 'transition duration-300'}`}>
-                <div className=''>
-                    <NavItem name='Home'></NavItem>
-                </div>
-                <div className=''>
-                    <NavItem name='About me'></NavItem>
-                </div>
-                <div className=''>
-                    <NavItem name='My Work'></NavItem>
-                </div>
-                <div className=''>
-                    <NavItem name='Contact' classname={`hidden`}></NavItem>
-                </div>
+            <div  className={`max-w-[1170px] mr-auto ml-auto mt-0 mb-0 flex pr-[15px] pl-[15px] justify-between  ${isOpen ? 'lg:fixed lg:z-[8] lg:flex lg:flex-col lg:w-full lg:h-screen lg:bg-gray-600 lg:items-center lg:text-slate-300' : 'lg:hidden'} ${scrollPosition > 100 ? 'fixed left-0 right-0 z-[2] rounded-md w-[100%] bg-slate-300 transition duration-500' : 'transition duration-500 rounded-md'}`}>
+                    <NavItem name='Home' isOpen={isOpen}></NavItem>
+                    <NavItem name='About me' isOpen={isOpen}></NavItem>
+                    <NavItem name='My Work' isOpen={isOpen}></NavItem>
+                    <NavItem name='Contact' isOpen={isOpen} classname={`border-r-0 mr-auto ${isOpen ? 'border-b-0' : ''}`}></NavItem>
             </div>
     )
 }
