@@ -13,7 +13,7 @@ const SectionOne = () => {
   
 
   return (
-    <section className='h-[100vh]'>
+    <section id='home-page' className='h-[100vh]'>
       <div className={`hidden bg-transparent m-auto text-white lg:block lg:fixed lg:z-10 ${isOpen ? 'absolute z-5' : ''}`}>
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>

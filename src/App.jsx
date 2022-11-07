@@ -8,10 +8,10 @@ import Footer from './components/Footer'
 const App = () => {
     return(
         <div className='bg-forest-image bg-cover bg-center'>
-            <SectionOne />
-            <SectionTwo />
-            <SectionThree />
-            <Footer />
+            <SectionOne id='home' />
+            <SectionTwo id='aboutMe'/>
+            <SectionThree id='myWork' />
+            <Footer id='contact' />
         </div>
     )
 }
