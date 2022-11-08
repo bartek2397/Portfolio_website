@@ -1,11 +1,11 @@
-import React, { useState} from 'react'
+import React, { useState, forwardRef } from 'react'
 import Navbar from '../components/Navbar'
 import Intro from '../components/Intro';
 import {Spin as Hamburger} from 'hamburger-react';
 
 
 
-const SectionOne = () => {
+const Home = forwardRef(( scrollToSection, ref ) => {
 
   const [isOpen, setOpen] = useState(false)
 
@@ -13,14 +13,14 @@ const SectionOne = () => {
   
 
   return (
-    <section id='home-page' className='h-[100vh]'>
+    <div id='home-page' className='h-[100vh]'>
       <div className={`hidden bg-transparent m-auto text-white lg:block lg:fixed lg:z-10 ${isOpen ? 'absolute z-5' : ''}`}>
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
-          <Navbar isOpen={isOpen}/>
+          <Navbar ref={ref} scrollToSection={scrollToSection} isOpen={isOpen}/>
           <Intro />
-    </section>
+    </div>
   )
-}
+})
 
-export default SectionOne
+export default Home

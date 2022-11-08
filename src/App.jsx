@@ -1,17 +1,26 @@
-import React from 'react'
-import SectionOne from './sections/SectionOne'
-import SectionTwo from './sections/SectionTwo'
-import SectionThree from './sections/SectionThree'
-import Footer from './components/Footer'
+import React, { useRef } from 'react'
+import Home from './sections/Home'
+import AboutMe from './sections/AboutMe'
+import MyWork from './sections/MyWork'
+import Footer from './sections/Footer'
 
 
 const App = () => {
+
+    const homeRef = useRef(null)
+    const aboutRef = useRef(null)
+    const workRef = useRef(null)
+    const contactRef = useRef(null)
+
+    const scrollToSection = (elementRef) => {
+        elementRef.current.scrollIntoView({ behavior: 'smooth', block: 'start'})
+    }
     return(
         <div className='bg-forest-image bg-cover bg-center'>
-            <SectionOne id='home' />
-            <SectionTwo id='aboutMe'/>
-            <SectionThree id='myWork' />
-            <Footer id='contact' />
+            <Home ref={homeRef} scrollToSection={scrollToSection}/>
+            <AboutMe ref={aboutRef} scrollToSection={scrollToSection} />
+            <MyWork ref={workRef} scrollToSection={scrollToSection} />
+            <Footer ref={contactRef} scrollToSection={scrollToSection} />
         </div>
     )
 }
