@@ -13,7 +13,7 @@ const Navbar = ({ isOpen }) => {
                 <Link className="w-[25%]" to="home" spy={true} smooth={true} offset={0} duration={500}>
                     <NavItem name='Home' isOpen={isOpen} ></NavItem>
                 </Link>
-                <Link className="w-[25%]" to="about" spy={true} smooth={true} offset={50} duration={500}>
+                <Link className="w-[25%]" to="about" spy={true} smooth={true} offset={10} duration={500}>
                     <NavItem name='About me' isOpen={isOpen}></NavItem>
                 </Link>
                 <Link className="w-[25%]" to="work" spy={true} smooth={true} offset={50} duration={500}>
