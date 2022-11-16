@@ -5,7 +5,7 @@ const AboutMe = () => {
 
   
   return (
-    <div className='max-w-[1170px] h-[100vh] mt-0 mb-0 mr-auto ml-auto pt-0 pb-0 pr-[15px] pl-[15px] text-left flex justify-between items-center md:flex-col md:justify-center md:items-center'>
+    <div id='about' className='max-w-[1170px] h-[100vh] mt-0 mb-0 mr-auto ml-auto pt-0 pb-0 pr-[15px] pl-[15px] text-left flex justify-between items-center md:flex-col md:justify-center md:items-center'>
         <div className='w-[50%] md:w-full md:text-center'>
           <h1 className='md:fluid-5xl'>
             About me
