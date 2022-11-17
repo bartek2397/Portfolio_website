@@ -9,7 +9,7 @@ const App = () => {
 
 
     return(
-        <div className='bg-forest-image bg-cover bg-center'>
+        <div className='bg-black'>
             <Home />
             <AboutMe />
             <MyWork />

@@ -34,12 +34,24 @@ module.exports = {
       fontFamily: {
         'orbitron': ['Orbitron', 'sans-serif'],
       },
-      
+      keyframes: {
+        slideUp: {
+          '0%': { transform: 'translateY(100px)', opacity: '0' },
+          '100%': { transform: 'translateY(0px)', opacity: '1' }
+        },
+      },
+      animation: {
+        'sliding-mouse': 'slideUp 1000ms  1000ms ease-in',
+        'sliding-phone': 'slideUp 1000ms  500ms ease-in',
+        'sliding-laptop': 'slideUp 1000ms ease-in'
+      }
     },
   },
   corePlugins: {
     // Remove Tailwind CSS's preflight style so it can use the MUI's preflight instead (CssBaseline).
     preflight: false,
   },
-  plugins: [require("tailwind-fluid-typography")],
+  plugins: [
+    require("tailwind-fluid-typography"),
+  ],
 };
