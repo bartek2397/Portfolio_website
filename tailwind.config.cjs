@@ -29,22 +29,12 @@ module.exports = {
       backgroundImage: {
         'nasa-image': "url('./src/assets/images/nasa-Q1p7bh3SHj8-unsplash.jpg')",
         'stars-image': "url('./src/assets/images/nrd-6KuY0cXHymE-unsplash.jpg')",
-        'forest-image': "url('./src/assets/images/evgeni-evgeniev-LPKk3wtkC-g-unsplash.jpg')"
+        'forest-image': "url('./src/assets/images/evgeni-evgeniev-LPKk3wtkC-g-unsplash.jpg')",
+        'gradient': "linear-gradient(180deg, rgba(43,43,48,1) 0%, rgba(50,50,57,1) 30%, rgba(23,30,32,1) 77%);"
       },
       fontFamily: {
         'orbitron': ['Orbitron', 'sans-serif'],
       },
-      keyframes: {
-        slideUp: {
-          '0%': { transform: 'translateY(100px)', opacity: '0' },
-          '100%': { transform: 'translateY(0px)', opacity: '1' }
-        },
-      },
-      animation: {
-        'sliding-mouse': 'slideUp 1000ms  1000ms ease-in',
-        'sliding-phone': 'slideUp 1000ms  500ms ease-in',
-        'sliding-laptop': 'slideUp 1000ms ease-in'
-      }
     },
   },
   corePlugins: {
@@ -53,5 +43,6 @@ module.exports = {
   },
   plugins: [
     require("tailwind-fluid-typography"),
+    require("tailwindcss-animated")
   ],
 };

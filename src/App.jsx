@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import Home from './sections/Home'
 import AboutMe from './sections/AboutMe'
 import MyWork from './sections/MyWork'
@@ -9,7 +9,7 @@ const App = () => {
 
 
     return(
-        <div className='bg-black'>
+        <div className='bg-gradient'>
             <Home />
             <AboutMe />
             <MyWork />

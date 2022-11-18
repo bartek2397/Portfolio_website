@@ -14,8 +14,8 @@ const Home = () => {
 
   return (
     
-    <div id='home' className='h-[100vh]'>
-      <div className={`hidden bg-transparent m-auto text-white lg:block lg:fixed lg:z-10 ${isOpen ? 'absolute z-5' : ''}`}>
+    <div id='home' className='h-screen'>
+      <div className={`hidden bg-transparent m-0 text-white lg:block lg:fixed lg:z-10 ${isOpen ? 'absolute z-5' : ''}`}>
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
           <Navbar isOpen={isOpen}/>
