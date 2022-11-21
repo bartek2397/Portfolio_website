@@ -6,22 +6,28 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 export const images = [
     {
         id: 1,
-        image: 'src/assets/images/markus-winkler-5ofa31FPKYY-unsplash.jpg',
+        image: 'src/assets/images/Todo.png',
         title: 'Todo App',
         desc: 'Todo App with built in ReactJS'
     },
     {
         id: 2,
-        image: 'src/assets/images/kelly-sikkema--1_RZL8BGBM-unsplash.jpg',
+        image: 'src/assets/images/Notes.png',
         title: 'Notes App',
         desc: 'Basic Notes App build with ReactJS'
     },
     {
         id: 3,
-        image: 'src/assets/images/noaa-Led9c1SSNFo-unsplash.jpg',
+        image: 'src/assets/images/Weather.png',
         title: 'Weather App',
         desc: 'Weather App build with vanilla JS'
     },
+    {
+        id: 4,
+        image: 'src/assets/images/ModernBank.png',
+        title: 'Modern Bank App',
+        desc: 'Modern Bank App build with ReactJS'
+    }
 ];
 
 export const links = [
@@ -80,9 +86,3 @@ export const phrases = [
     
   ];
 
-export const navLinks = [
-    {
-        id: '1',
-        
-    }
-]

@@ -9,7 +9,7 @@ const App = () => {
 
 
     return(
-        <div className='bg-gradient'>
+        <div className='bg-[#C9C5CB]'>
             <Home />
             <AboutMe />
             <MyWork />
