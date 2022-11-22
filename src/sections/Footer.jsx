@@ -4,7 +4,7 @@ import { links, contacts } from '../assets/constants'
 
 const Footer = () => {
   return (
-        <footer id='contact' className='max-w-[1170px] m-auto p-10 flex justify-between xl:flex-col xl:justify-center'>
+        <footer id='contact' className='max-w-[1170px] m-auto pt-10 pb-10 flex justify-between xl:flex-col xl:justify-center'>
             <div className='w-[30%] flex items-center justify-center xl:w-full '>
               <h2 className='xl:fluid-2xl text-center text-[#40434E]'>Contact</h2>
             </div>
