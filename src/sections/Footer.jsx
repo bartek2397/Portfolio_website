@@ -18,7 +18,7 @@ const Footer = () => {
               </div>
               <div className='w-[50%] flex flex-col justify-center xl:w-[50%] md:items-center md:w-[100%]'>
                 {contacts.map((contact) => (
-                  <p className='text-[#40434E]] text-lg ml-5 text-center md:ml-0 md:fluid-sm md:m-1 md:w-[100vw]'>
+                  <p className='text-[#40434E] text-lg ml-5 text-center md:ml-0 md:fluid-sm md:m-1 md:w-[100vw]'>
                     {contact.icon} {contact.content}
                   </p>
                 ))}

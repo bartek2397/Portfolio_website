@@ -8,25 +8,29 @@ export const images = [
         id: 1,
         image: 'src/assets/images/Todo.png',
         title: 'Todo App',
-        desc: 'Todo App with built in ReactJS'
+        desc: 'Todo App with built in ReactJS',
+        link: 'https://todo-app-nu-neon.vercel.app/'
     },
     {
         id: 2,
         image: 'src/assets/images/Notes.png',
         title: 'Notes App',
-        desc: 'Notes App build with ReactJS'
+        desc: 'Notes App build with ReactJS',
+        link: 'https://note-app-nu-two.vercel.app/'
     },
     {
         id: 3,
         image: 'src/assets/images/Weather.png',
         title: 'Weather App',
-        desc: 'Weather App build with vanilla JS'
+        desc: 'Weather App build with vanilla JS',
+        link: 'https://weather-app-sigma-blond.vercel.app/'
     },
     {
         id: 4,
         image: 'src/assets/images/ModernBank.png',
         title: 'Modern Bank App',
-        desc: 'Modern Bank App build with ReactJS'
+        desc: 'Modern Bank App build with ReactJS',
+        link: 'https://modernapp-xi.vercel.app/'
     }
 ];
 
