@@ -23,7 +23,7 @@ const Home = () => {
       <div className={`hidden bg-transparent m-0 text-[#fff] lg:block lg:fixed lg:z-10 ${isOpen ? 'absolute z-5' : ''}`}>
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
-          <Navbar isOpen={isOpen}/>
+          <Navbar isOpen={isOpen} setOpen={setOpen} />
           <Intro />
     </div>
     

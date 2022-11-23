@@ -14,7 +14,7 @@ export const images = [
         id: 2,
         image: 'src/assets/images/Notes.png',
         title: 'Notes App',
-        desc: 'Basic Notes App build with ReactJS'
+        desc: 'Notes App build with ReactJS'
     },
     {
         id: 3,
