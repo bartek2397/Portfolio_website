@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faHtml5, faCss3, faReact, faJs, faGit, faSass, faNpm, faPython,  } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Tailwindcss, Python, Git, Html5, CssThree, Sass, Javascript, Npm, ReactJs, Nodedotjs, Express } from "@icons-pack/react-simple-icons";
 
 export const images = [
     {
@@ -75,7 +76,7 @@ export const contacts = [
 export const phrases = [
     { 
       id: 1,
-      content: "I'm a beginner Frontend Developer. I have been developing my Frontend skills fot over a year now. Main technology I work with lately is ReactJS iwth Material UI/AntDesign"
+      content: "I'm a beginner Frontend Developer. I have been developing my Frontend skills fot over a year now. Main technology I work with lately is ReactJS with Material UI/AntDesign"
     },
     
     { 
@@ -90,3 +91,89 @@ export const phrases = [
     
   ];
 
+export const techs = [
+    {
+        id: 1,
+        name: 'HTML5',
+        icon: 
+            <>
+                <Html5 />
+            </>
+    },
+    {
+        id: 2,
+        name: 'CSS3',
+        icon: 
+            <>
+                <CssThree />
+            </>
+    },
+    {
+        id: 3,
+        name: 'JavaScript',
+        icon: 
+            <>
+                <Javascript />
+            </>
+    },
+    {
+        id: 4,
+        name: 'ReactJS',
+        icon: 
+            <>
+                <ReactJs />
+            </>
+    },
+    {
+        id: 5,
+        name: 'Sass',
+        icon: 
+            <>
+                <Sass />
+            </>
+    },
+    {
+        id: 6,
+        name: 'Git',
+        icon: 
+            <>
+                <Git />
+            </>
+    },
+    {
+        id: 7,
+        name: 'Python',
+        icon: 
+            <>
+                <Python />
+
+            </>
+    },
+    {
+        id: 8,
+        name: 'Tailwind CSS',
+        icon: 
+            <>
+                <Tailwindcss />
+            </>
+    },
+];
+
+export const learning = [
+    {
+        id: 1,
+        name: 'NodeJS',
+        icon: 
+            <>
+                <Nodedotjs />
+            </>
+    },
+    {
+        id: 2,
+        name: 'ExpressJS',
+        icon: 
+            <>
+                <Express />
+            </>
+    }
+]
