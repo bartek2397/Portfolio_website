@@ -142,7 +142,7 @@ export const techs = [
     },
     {
         id: 7,
-        name: 'Python',
+        name: 'Python Basics',
         icon: 
             <>
                 <Python />
