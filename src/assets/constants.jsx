@@ -14,7 +14,7 @@ export const images = [
     },
     {
         id: 2,
-        image: 'src/assets/images/Notes.jpg',
+        image: 'src/assets/images/Notes.png',
         title: 'Notes App',
         desc: 'Notes App build with ReactJS',
         link: 'https://note-app-nu-two.vercel.app/'
