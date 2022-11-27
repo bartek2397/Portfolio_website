@@ -2,7 +2,6 @@ import React from 'react';
 import { Card, CardMedia, CardContent, Typography } from '@mui/material';
 import { images } from '../assets/constants';
 
-import Notes from '../assets/images/Notes.png';
 import Todo from '../assets/images/Todo.png';
 import Weather from '../assets/images/Weather.png';
 import Bank from '../assets/images/ModernBank.png';
