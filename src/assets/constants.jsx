@@ -19,22 +19,22 @@ export const images = [
     },
     {
         id: 2,
-        image: './src/assets/images/Notes.png',
-        title: Notes,
+        image: Notes,
+        title: 'Notes App',
         desc: 'Notes App build with ReactJS',
         link: 'https://note-app-nu-two.vercel.app/'
     },
     {
         id: 3,
-        image: './src/assets/images/Weather.png',
-        title: Weather,
+        image: Weather,
+        title: 'Weather App',
         desc: 'Weather App build with vanilla JS',
         link: 'https://weather-app-sigma-blond.vercel.app/'
     },
     {
         id: 4,
-        image: './src/assets/images/ModernBank.png',
-        title: Bank,
+        image: Bank,
+        title: 'Modern Bank App',
         desc: 'Modern Bank App build with ReactJS',
         link: 'https://modernapp-xi.vercel.app/'
     }
