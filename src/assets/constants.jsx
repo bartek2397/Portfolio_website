@@ -4,10 +4,10 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Tailwindcss, Python, Git, Html5, CssThree, Sass, Javascript, Npm, ReactJs, Nodedotjs, Express } from "@icons-pack/react-simple-icons";
 
-import Notes from './assets/images/Notes.png';
-import Todo from './assets/images/Todo.png';
-import Weather from './assets/images/Weather.png';
-import Bank from './assets/images/ModernBank.png';
+import Notes from '../assets/images/Notes.png';
+import Todo from '../assets/images/Todo.png';
+import Weather from '../assets/images/Weather.png';
+import Bank from '../assets/images/ModernBank.png';
 
 export const images = [
     {
