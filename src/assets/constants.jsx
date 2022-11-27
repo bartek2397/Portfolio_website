@@ -4,33 +4,36 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Tailwindcss, Python, Git, Html5, CssThree, Sass, Javascript, Npm, ReactJs, Nodedotjs, Express } from "@icons-pack/react-simple-icons";
 
-import Notes from '../assets/images/Notes.png'
+import Notes from '../assets/images/Notes.PNG'
+import Todo from '../assets/images/Todo.PNG'
+import Weather from '../assets/images/Weather.PNG'
+import Bank from '../assets/images/ModernBank.PNG'
 
 export const images = [
     {
         id: 1,
-        image: '../assets/images/Todo.png',
+        image: Todo,
         title: 'Todo App',
         desc: 'Todo App with built in ReactJS',
         link: 'https://todo-app-nu-neon.vercel.app/'
     },
     {
         id: 2,
-        image: {Notes},
+        image: Notes,
         title: 'Notes App',
         desc: 'Notes App build with ReactJS',
         link: 'https://note-app-nu-two.vercel.app/'
     },
     {
         id: 3,
-        image: '../assets/images/Weather.png',
+        image: Weather,
         title: 'Weather App',
         desc: 'Weather App build with vanilla JS',
         link: 'https://weather-app-sigma-blond.vercel.app/'
     },
     {
         id: 4,
-        image: '../assets/images/ModernBank.png',
+        image: Bank,
         title: 'Modern Bank App',
         desc: 'Modern Bank App build with ReactJS',
         link: 'https://modernapp-xi.vercel.app/'

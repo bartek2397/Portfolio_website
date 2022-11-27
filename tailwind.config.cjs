@@ -5,8 +5,7 @@ const { formatPostcssSourceMap } = require('vite');
 
 module.exports = {
   content: [
-    './src/**/*.{js,jsx,ts,tsx}',
-    './node_modules/hamburger-react/**/*.{js,ts}'
+    './src/**/*.{js,jsx,ts,tsx,png}',
 ],
   important: '#root',
   theme: {
