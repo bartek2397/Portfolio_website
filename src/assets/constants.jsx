@@ -4,6 +4,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Tailwindcss, Python, Git, Html5, CssThree, Sass, Javascript, Npm, ReactJs, Nodedotjs, Express } from "@icons-pack/react-simple-icons";
 
+import Notes from '../assets/images/Notes.png'
 
 export const images = [
     {
@@ -15,7 +16,7 @@ export const images = [
     },
     {
         id: 2,
-        image: '../assets/images/Notes.png',
+        image: {Notes},
         title: 'Notes App',
         desc: 'Notes App build with ReactJS',
         link: 'https://note-app-nu-two.vercel.app/'
