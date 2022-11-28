@@ -102,7 +102,7 @@ export const techs = [
         name: 'HTML5',
         icon: 
             <>
-                <Html5 />
+                <Html5 color="#E34F26" />
             </>
     },
     {
@@ -110,7 +110,7 @@ export const techs = [
         name: 'CSS3',
         icon: 
             <>
-                <CssThree />
+                <CssThree color="#1572B6" />
             </>
     },
     {
@@ -118,7 +118,7 @@ export const techs = [
         name: 'JavaScript',
         icon: 
             <>
-                <Javascript />
+                <Javascript color="#F7DF1E" />
             </>
     },
     {
@@ -126,7 +126,7 @@ export const techs = [
         name: 'ReactJS',
         icon: 
             <>
-                <ReactJs />
+                <ReactJs color="#61DAFB" />
             </>
     },
     {
@@ -134,7 +134,7 @@ export const techs = [
         name: 'Sass',
         icon: 
             <>
-                <Sass />
+                <Sass color="#CC6699" />
             </>
     },
     {
@@ -142,7 +142,7 @@ export const techs = [
         name: 'Git',
         icon: 
             <>
-                <Git />
+                <Git color="#F05032" />
             </>
     },
     {
@@ -150,7 +150,7 @@ export const techs = [
         name: 'Python Basics',
         icon: 
             <>
-                <Python />
+                <Python color="#3776AB" />
 
             </>
     },
@@ -159,7 +159,7 @@ export const techs = [
         name: 'Tailwind CSS',
         icon: 
             <>
-                <Tailwindcss />
+                <Tailwindcss color="#06B6D4" />
             </>
     },
 ];
@@ -170,7 +170,7 @@ export const learning = [
         name: 'NodeJS',
         icon: 
             <>
-                <Nodedotjs />
+                <Nodedotjs color="#339933" />
             </>
     },
     {
@@ -178,7 +178,7 @@ export const learning = [
         name: 'ExpressJS',
         icon: 
             <>
-                <Express />
+                <Express color="#000000"/>
             </>
     }
 ]
