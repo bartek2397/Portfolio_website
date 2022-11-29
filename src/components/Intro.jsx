@@ -7,7 +7,7 @@ import Phone from '../assets/images/iPhone_Laying_R.png'
 const Intro = () => {
   return (
     <div className='max-w-[1170px] h-screen flex items-center justify-center m-auto md:flex-col'>
-        <div className='w-[50%] h-[50%] md:w-full md:text-center md:pt-20 animate-fade-up animate-once animate-duration-1000 animate-ease-in-out animate-normal animate-fill-backwards'>
+        <div className='w-[50%] h-[50%] pr-[15px] pl-[15px] md:w-full md:text-center md:pt-20 animate-fade-up animate-once animate-duration-1000 animate-ease-in-out animate-normal animate-fill-backwards'>
           <h1 className='text-[#C9C5CB]'>Bartek Wszolek</h1>
           <h2 className='text-[#C9C5CB]'>Frontend developer</h2>
         </div>
