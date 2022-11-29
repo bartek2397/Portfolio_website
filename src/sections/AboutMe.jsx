@@ -46,7 +46,7 @@ const AboutMe = () => {
             <div>
               <div>
                 <h2 className='md:fluid-xl md:text-center text-[#40434E]'>
-                  What I'm learning now
+                  Currently learning
                 </h2>
               </div>
               <div>
