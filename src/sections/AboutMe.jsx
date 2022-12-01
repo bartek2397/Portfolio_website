@@ -36,7 +36,7 @@ const AboutMe = () => {
                   <ul className='p-0'>
                     <div className='flex flex-wrap m-auto justify-center items-center'>
                       {techs.map((tech, id) => (
-                        <div className={`text-center w-[25%] p-3 sm:p-0`} >
+                        <div className={`text-center w-[25%] p-3 sm:p-0 sm:w-[25%]`} >
                           <li key={id} className={`md:fluid-sm list-none ${scrollPosition > 300 ? 'visible animate-fade-up animate-once animate-duration-1000 animate-ease-in-out animate-normal animate-fill-backwards animate-delay-500' : 'invisible'}`}>{tech.icon} {tech.name}</li>
                         </div>
                     ))}
@@ -51,9 +51,9 @@ const AboutMe = () => {
               </div>
               <div>
               <ul className='p-0'>
-                    <div className='flex flex-wrap m-auto justify-center items-center'>
+                    <div className='flex sm:flex-col m-auto justify-center items-center'>
                       {learning.map((item, id) => (
-                        <div className='text-center w-[25%] p-3 sm:p-0'>
+                        <div className='text-center w-[25%] p-3 sm:p-0 sm:w-[100%]'>
                           <li key={id} className={`md:fluid-sm list-none ${scrollPosition > 300 ? 'visible animate-fade-up animate-once animate-duration-1000 animate-ease-in-out animate-normal animate-fill-backwards animate-delay-1000' : 'invisible'}`}>{item.icon} {item.name}</li>
                         </div>
                     ))}
