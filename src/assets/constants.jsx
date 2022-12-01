@@ -81,7 +81,7 @@ export const contacts = [
 export const phrases = [
     { 
       id: 1,
-      content: "I'm a beginner Frontend Developer. I have been developing my Frontend skills fot over a year now. Main technology I work with lately is ReactJS with Material UI/AntDesign"
+      content: "I'm a beginner Frontend Developer. I have been developing my Frontend skills for over a year now. Main technology I work with lately is ReactJS with Material UI."
     },
     
     { 
