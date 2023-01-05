@@ -7,7 +7,7 @@ const AboutMe = () => {
   const scrollPosition = useScrollPosition();
   
   return (
-    <div id='about' className={`bg-[#C9C5CB] relative h-screen md:h-[60rem] pt-10 pb-0 pr-[15px] pl-[15px] text-left`}>
+    <div id='about' className={`bg-[#C9C5CB] relative h-[50rem] md:h-[60rem] pt-10 pb-0 pr-[15px] pl-[15px] text-left`}>
       <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none rotate-180">
         <svg className='block relative ' data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
           <path className='fill-[#40434E]' d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"></path>
@@ -36,7 +36,7 @@ const AboutMe = () => {
                   <ul className='p-0'>
                     <div className='flex flex-wrap m-auto justify-center items-center'>
                       {techs.map((tech, id) => (
-                        <div className={`text-center w-[25%] p-3 sm:p-0`} >
+                        <div className={`text-center w-[25%] p-3 sm:p-0 sm:w-[25%]`} >
                           <li key={id} className={`md:fluid-sm list-none ${scrollPosition > 300 ? 'visible animate-fade-up animate-once animate-duration-1000 animate-ease-in-out animate-normal animate-fill-backwards animate-delay-500' : 'invisible'}`}>{tech.icon} {tech.name}</li>
                         </div>
                     ))}
@@ -51,9 +51,9 @@ const AboutMe = () => {
               </div>
               <div>
               <ul className='p-0'>
-                    <div className='flex flex-wrap m-auto justify-center items-center'>
+                    <div className='flex sm:flex-col m-auto justify-center items-center'>
                       {learning.map((item, id) => (
-                        <div className='text-center w-[25%] p-3 sm:p-0'>
+                        <div className='text-center w-[25%] p-3 sm:p-0 sm:w-[100%]'>
                           <li key={id} className={`md:fluid-sm list-none ${scrollPosition > 300 ? 'visible animate-fade-up animate-once animate-duration-1000 animate-ease-in-out animate-normal animate-fill-backwards animate-delay-1000' : 'invisible'}`}>{item.icon} {item.name}</li>
                         </div>
                     ))}
