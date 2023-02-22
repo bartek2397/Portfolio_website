@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin  } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
-import { Tailwindcss, Python, Git, Html5, CssThree, Sass, Javascript, Npm, ReactJs, Nodedotjs, Express, Typescript } from "@icons-pack/react-simple-icons";
+import { Tailwindcss, Python, Git, Html5, CssThree, Sass, Javascript, Npm, ReactJs, Nodedotjs, Express, Typescript, Nextdotjs } from "@icons-pack/react-simple-icons";
 
 import Notes from '../assets/images/Notes.PNG'
 import Todo from '../assets/images/Todo.PNG'
@@ -187,6 +187,14 @@ export const learning = [
         icon: 
             <>
                 <Typescript color="#3178C6"/>
+            </>
+    },
+    {
+        id: 4,
+        name: 'NextJS',
+        icon:
+            <>
+                <Nextdotjs color="#000000" />
             </>
     }
 ]
